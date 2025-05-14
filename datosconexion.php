@@ -6,8 +6,6 @@ class ficherodatos {
 
     public function __construct($n) {
         
-        
-
         $this->nombref = $n;
     }
 
