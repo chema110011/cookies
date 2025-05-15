@@ -12,6 +12,8 @@ try {
     $mierror->muestra(0); 
     die();
 }
+
+//una linea mas
 //crear la tabla
 
 $sql = "CREATE TABLE usuarios (id INT NOT NULL AUTO_INCREMENT"
@@ -37,6 +39,8 @@ try {
     echo "hay algun error en la consulta";
     die();
 }
+
+
 
 $sql="INSERT INTO usuarios (usuario, password) VALUES ('Garfiel', 'casita')";
 try {
